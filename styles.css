@@ -166,12 +166,18 @@ li>a{
 /* ----------------Some Facts ------------*/
 .facts{
     margin: 0 250px;
+    margin-top: 130px;
     padding-bottom: 180px;
+}
+.facts>h3{
+    margin-left: -50px;
+    padding-bottom: 24px;
 }
 .facts>p {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    margin-left: -50px;
 
 }
 .facts>h3, .sponsor-des>h3{

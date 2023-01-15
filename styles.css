@@ -270,9 +270,14 @@ li>a{
     }
     .quick-list{
         grid-template-columns: repeat(1, 1fr);
+        padding: 0;
     }
     .list-image{
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .list-image>img{
+        width: 100%;
     }
     .features{
         grid-template-columns: repeat(1, 1fr);
@@ -295,4 +300,9 @@ li>a{
         font-size: 14px;
         text-align: left;
     }
+    .banner{
+        flex-direction: column;
+
+    }
+
 }

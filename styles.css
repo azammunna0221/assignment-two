@@ -196,6 +196,13 @@ li>a{
     border: 1px solid #FF900E;
     border-radius: 8px;
 }
+/* Animation----------------------------- */
+.anim{
+    transition: transform 1s ease-in-out;
+}
+.anim:hover{
+    transform: scale(0.9) rotate(360deg);
+}
 
 .fact-boxes{
     display: flex;
